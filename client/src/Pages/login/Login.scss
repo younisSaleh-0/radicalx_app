@@ -1,0 +1,109 @@
+.login {
+  display: flex;
+
+  .left {
+    flex: 1;
+    height: 100vh;
+
+    background: #793ef5;
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 200px;
+      height: 60px;
+      top: 10px;
+    }
+    .login_container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      h1 {
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 24px;
+      }
+      .email_container {
+        position: relative;
+        .icon {
+          position: absolute;
+          top: 17px;
+          font-size: 23px;
+          left: 4px;
+          color: darkgray;
+        }
+        input {
+          padding: 9px 30px;
+          width: 300px;
+          height: 40px;
+          background-color: #eeeeee;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          color: #793ef5;
+        }
+      }
+      .password_container {
+        margin: 10px 0px;
+        position: relative;
+        .icon {
+          position: absolute;
+          top: 17px;
+          font-size: 23px;
+          left: 4px;
+          color: darkgray;
+        }
+        input {
+          padding: 9px 30px;
+          width: 300px;
+          height: 40px;
+          background-color: #eeeeee;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          color: #793ef5;
+        }
+      }
+      .buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .remember_me {
+          display: flex;
+          p {
+            margin-left: 5px;
+          }
+        }
+        .forgot_password {
+          cursor: pointer;
+          color: #793ef5;
+          font-weight: bold;
+          font-size: 14px;
+        }
+      }
+    }
+
+    button {
+      padding: 11px 25px;
+      width: 99%;
+      background-color: #793ef5;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}

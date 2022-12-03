@@ -1,0 +1,14 @@
+.apprenticeship {
+  .link {
+    position: relative;
+
+    span {
+      position: absolute;
+      right: 10px;
+    }
+    p {
+      position: absolute;
+      left: 0;
+    }
+  }
+}

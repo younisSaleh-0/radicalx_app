@@ -1,0 +1,78 @@
+.create_top {
+  padding: 10px;
+
+  .create_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    padding: 10px;
+    filter: drop-shadow(0px 12px 34px rgba(0, 0, 0, 0.04));
+
+    height: 55px;
+    background: #ffffff;
+
+    // back link
+    .back_link {
+      a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+
+        .icon {
+          color: #793ef5;
+        }
+
+        p {
+          color: black;
+          margin-left: 8px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    // title
+    .title {
+      h1 {
+        font-family: "Space Grotesk";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 24px;
+
+        color: #1e1e1e;
+      }
+    }
+
+    // next step
+    .next_step {
+      cursor: pointer;
+
+      .link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        width: 204px;
+        height: 44px;
+        margin-right: 20px;
+
+        background: #e2e6eb;
+        border-radius: 12px;
+
+        span {
+          margin-left: 6px;
+          font-size: 15px;
+          color: #828282;
+        }
+
+        p {
+          margin-bottom: 1px;
+          margin-left: 11px;
+          color: #828282;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+}

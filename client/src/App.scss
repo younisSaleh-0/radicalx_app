@@ -1,0 +1,78 @@
+// Text general styling
+$FontColor: #1e1e1e;
+$FontFamily: "Space Grotesk";
+$fontStyle: "normal";
+
+// Header one styling
+$HeaderOneFontSize: 32px;
+$HeaderOneFontLineHeight: 24px;
+$HeaderOneFontWeight: 600;
+$HeaderOneFontLetterSpace: 0.3px;
+// Header two styling
+$HeaderTwoFontSize: 28px;
+$HeaderTwoFontLineHeight: 24px;
+$HeaderTwoFontWeight: 600;
+$HeaderTwoFontLetterSpace: 0.3px;
+
+// Paragraph one styling
+$ParaFontSize: 14px;
+$ParaFontLineHeight: 28px;
+$ParaFontWeight: 400;
+$ParaFontLetterSpace: 0.3px;
+
+// Buttons Style
+// create button style
+$CreateNew: #793ef5;
+
+// Header one style
+h1 {
+  color: $FontColor;
+  font-size: $HeaderOneFontSize;
+  font-weight: $HeaderOneFontWeight;
+  font-family: $FontFamily;
+  letter-spacing: $HeaderOneFontLetterSpace;
+  line-height: $HeaderOneFontLineHeight;
+}
+h2 {
+  color: $FontColor;
+  font-size: $HeaderTwoFontSize;
+  font-weight: $HeaderTwoFontWeight;
+  font-family: $FontFamily;
+  letter-spacing: $HeaderTwoFontLetterSpace;
+  line-height: $HeaderTwoFontLineHeight;
+}
+// Paragraph styling
+p {
+  color: #fff;
+  font-size: $ParaFontSize;
+  font-weight: $ParaFontWeight;
+  font-family: $FontFamily;
+  letter-spacing: $ParaFontLetterSpace;
+  line-height: $ParaFontLineHeight;
+}
+
+// Top styling for header and create button
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .create_link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    width: 217px;
+    height: 44px;
+    background: #793ef5;
+    border-radius: 12px;
+  }
+  .create_icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+  }
+}
+
+.app {
+  display: flex;
+}
