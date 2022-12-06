@@ -1,0 +1,43 @@
+.body_wrapper {
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+
+  .container {
+    display: flex;
+    cursor: pointer;
+
+    .left_frame {
+      margin-right: 10px;
+    }
+    align-items: center;
+    .navigation_categories {
+      display: flex;
+      width: 100%;
+      button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 10px;
+
+        width: 40%;
+        height: 64px;
+
+        background: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 16px;
+
+        div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+.input_container {
+  position: absolute;
+  right: 25px;
+  top: 20px;
+  //   background-color: aqua;
+  width: 55%;
+
+  
+
+  .category {
+    padding: 24px;
+
+    width: 94%;
+    height: 180px;
+
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .description {
+    padding: 24px;
+
+    width: 94%;
+    height: 287px;
+
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .location {
+    padding: 24px;
+
+    position: absolute;
+    width: 94%;
+    height: 138px;
+
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .benefits {
+    padding: 24px;
+    width: 94%;
+    height: 287px;
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .intro_video {
+    padding: 24px;
+
+    width: 84%;
+    height: 222px;
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .mentor_details {
+    padding: 24px;
+
+    width: 94%;
+    height: 314px;
+
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .recommended_roles {
+    padding: 24px;
+
+    width: 94%;
+    height: 200px;
+
+    background: #ffffff;
+    border-radius: 20px;
+  }
+
+  .web_links {
+    padding: 24px;
+
+    width: 94;
+    height: 192px;
+
+    background: #ffffff;
+    border-radius: 20px;
+  }
+}

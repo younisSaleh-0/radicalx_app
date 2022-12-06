@@ -1,0 +1,32 @@
+.status_bar {
+  width: 97%;
+  height: 55px;
+  margin-left: 10px;
+  border-radius: 24px;
+  padding: 5px;
+  border: 1px solid rgba(158, 144, 144, 0.478);
+  justify-content: space-between;
+
+  .status {
+    .status_track {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: rgb(109, 104, 104);
+
+        .icon {
+          margin-right: 10px;
+          font-size: 25px;
+          color: lightgrey;
+        }
+      }
+    }
+  }
+}
